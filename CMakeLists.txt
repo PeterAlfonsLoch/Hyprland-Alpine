@@ -222,7 +222,7 @@ endfunction()
 
 target_link_libraries(Hyprland
         ${CMAKE_SOURCE_DIR}/subprojects/wlroots/build/libwlroots.so.13032 # wlroots is provided by us
-        OpenGL::EGL
+        /usr/lib/libEGL.so
         OpenGL::GL
         Threads::Threads
         libudis86
